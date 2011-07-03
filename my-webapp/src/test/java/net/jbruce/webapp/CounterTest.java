@@ -13,6 +13,7 @@ import static org.junit.Assert.*;
 public class CounterTest {
     @Test
     public void testInit() {
-        assertTrue(true);
+        Counter counter=new Counter();
+        assertNotNull(counter);
     }
 }
